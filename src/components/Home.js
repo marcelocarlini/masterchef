@@ -26,7 +26,7 @@ const Home = () => {
             model: "text-davinci-003",
             prompt: `Apresente uma receita bem elaborada e existente de restaurante gourmet feita com ${ingredientes}, dentro de uma div com classe ingredientes crie um cabeçalho principal com o nome da receita e outro cabeçalho html com a palavra ingredientes e em seguida
             liste os ingredientes em uma html ul li, faça o mesmo com o modo de preparo.`,
-            temperature: 0,
+            temperature: 0.9,
             max_tokens: 1000,
         });
         //after data from api
