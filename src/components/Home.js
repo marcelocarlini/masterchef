@@ -24,8 +24,7 @@ const Home = () => {
         //function here
         const response = await openai.createCompletion({
             model: "text-davinci-003",
-            prompt: `apresente uma receita feita com ${ingredientes}, dentro de uma div com classe ingredientes crie 
-            um cabeçalho principal com o nome da receita e outro cabeçalho html com a palavra ingredientes e em seguida
+            prompt: `Você é uma IA projetada para ajudar cozinheiros ,apresente uma receita de restaurante feita com ${ingredientes}, dentro de uma div com classe ingredientes crie um cabeçalho principal com o nome da receita e outro cabeçalho html com a palavra ingredientes e em seguida
             liste os ingredientes em uma html ul li, faça o mesmo com o modo de preparo.`,
             temperature: 0.1,
             max_tokens: 600, //1000
