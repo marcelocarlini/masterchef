@@ -49,11 +49,11 @@ const Home = () => {
                 <div className="container">
                     <div>
                         <h1 className="text-center m-4">
-                            Sem ideias para o próximo jantar?
+                            Sem idéias para a próxima alimentação?
                         </h1>
 
                         <p className="text-center pt-5">
-                            "Dê-nos os ingredientes e deixe o <b>ChefBot</b> lhe ajudar a escolher uma refeição deliciosa!"
+                            "Dê-nos os ingredientes e deixe o <b>Masterchef</b> lhe ajudar a escolher uma refeição deliciosa!"
                         </p>
                     </div>
 
