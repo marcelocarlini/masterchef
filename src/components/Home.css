@@ -1,0 +1,48 @@
+.ingredientes {
+  padding: 1%;
+  margin-bottom: 10%;
+  border: 2px solid #00dbff;
+  list-style-position: inside;
+  border-radius: 16px;
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #080508,
+    #0d0b10,
+    #0e1117,
+    #0d161b,
+    #0e1b1f,
+    #0d1f23,
+    #0e2425,
+    #0f2a2b,
+    #113031,
+    #123638,
+    #133c3e
+  );
+  color: white;
+}
+.ingredientes h1 {
+  text-align: center;
+}
+.ingredientes ul {
+  display: table;
+}
+
+.receitaButton {
+  background-color: black;
+  color: #00dbff;
+}
+.receitaButton:hover {
+  background-color: black;
+  color: #00dbff;
+}
+
+.textareaInput:focus {
+  border: 2px solid #00dbff;
+  box-shadow: 2px solid #00dbff;
+}
+
+.textareaInput {
+  border: 2px solid #00dbff;
+  box-shadow: 2px solid #00dbff;
+}
