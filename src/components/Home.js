@@ -27,7 +27,7 @@ const Home = () => {
             prompt: `apresente uma receita feita com ${ingredientes}, dentro de uma div com classe ingredientes crie 
             um cabeçalho principal com o nome da receita e outro cabeçalho html com a palavra ingredientes e em seguida
             liste os ingredientes em uma html ul li, faça o mesmo com o modo de preparo.`,
-            temperature: 0.7,
+            temperature: 0.1,
             max_tokens: 600, //1000
             top_p: 1.0,
             frequency_penalty: 0.2,
@@ -53,7 +53,7 @@ const Home = () => {
                         </h1>
 
                         <p className="text-center pt-5">
-                            "Dê-nos os ingredientes e deixe o <b>Masterchef</b> lhe ajudar a escolher uma refeição deliciosa!"
+                            Dê-nos os ingredientes e deixe o <b>Masterchef</b> lhe ajudar a escolher uma refeição deliciosa!
                         </p>
                     </div>
 
