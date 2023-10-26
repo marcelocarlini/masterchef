@@ -23,8 +23,8 @@ const Home = () => {
         setIsProcessing(true)
         //function here
         const response = await openai.createCompletion({
-            model: "gpt-3.5-turbo",
-            prompt: `Você é uma IA projetada para ajudar cozinheiros ,apresente uma receita de restaurante feita com ${ingredientes}, dentro de uma div com classe ingredientes crie um cabeçalho principal com o nome da receita e outro cabeçalho html com a palavra ingredientes e em seguida
+            model: "text-davinci-003",
+            prompt: `Apresente uma receita bem elaborada e existente de restaurante gourmet feita com ${ingredientes}, dentro de uma div com classe ingredientes crie um cabeçalho principal com o nome da receita e outro cabeçalho html com a palavra ingredientes e em seguida
             liste os ingredientes em uma html ul li, faça o mesmo com o modo de preparo.`,
             temperature: 0.1,
             max_tokens: 600, //1000
